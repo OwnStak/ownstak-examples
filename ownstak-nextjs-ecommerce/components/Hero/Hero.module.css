@@ -1,0 +1,199 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom right, #faf9f7, #f5f3f0);
+  padding: 4rem 0 6rem;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.heroContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  min-height: 500px;
+}
+
+.heroContent {
+  max-width: 480px;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f0ede8;
+  color: #8b7355;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroBadge svg {
+  color: #d2691e;
+}
+
+.heroTitle {
+  font-size: 3.25rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroSubtitle {
+  font-size: 1.125rem;
+  color: #6b5b47;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroCta {
+  background-color: #a7897b;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s ease;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.heroCta:hover {
+  background-color: #926f5f;
+}
+
+.heroProducts {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  gap: 1rem;
+  height: 500px;
+}
+
+.heroProductCard {
+  background: white;
+  border: 1px solid #e8e5e1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.heroProductCard:hover {
+  border-color: #d4c5b5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(167, 137, 123, 0.15);
+}
+
+.heroProductCard.featured {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.heroProductImage {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.heroProductImage.normal {
+  height: calc(100% - 60px);
+}
+
+.heroProductContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 0.75rem;
+  border-top: 1px solid #e8e5e1;
+}
+
+.heroProductTitle {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #1a1a1a;
+  margin-bottom: 0.25rem;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.heroProductPricing {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.heroCurrentPrice {
+  font-weight: 600;
+  color: #a7897b;
+  font-size: 0.875rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroOriginalPrice {
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 0.75rem;
+  text-decoration: line-through;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Sale Badge */
+.saleBadge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: #a7897b;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 10;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .heroProducts {
+    height: 300px;
+  }
+
+  .heroProductImage.normal {
+    height: calc(100% - 50px);
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+} 
