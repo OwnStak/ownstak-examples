@@ -1,0 +1,18 @@
+{
+  "name": "ownstak-vuejs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx ownstak dev",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy",
+    "start": "npx ownstak start"
+  },
+  "dependencies": {
+    "ownstak": "0.1.11",
+    "vue": "3.5.17",
+    "@vitejs/plugin-vue": "6.0.0",
+    "vite": "7.0.4"
+  }
+}
