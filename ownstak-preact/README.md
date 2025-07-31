@@ -2,57 +2,30 @@
 
 This is an example Preact Single Page Application (SPA) built with Vite and designed to be deployed on OwnStak.
 
-## Features
+## Quick Start
 
-- **Preact** with modern hooks and features
-- **Vite** for fast development and optimized builds
-- **TypeScript** support for better development experience
-- **ESLint** for code quality and consistency
-- **Hot Module Replacement (HMR)** for fast development
+### Clone and Install
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone this repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Development
-
-Start the development server:
 ```bash
-npx ownstak dev
+npx gitpick https://github.com/OwnStak/ownstak-examples/tree/main/ownstak-preact
+cd ownstak-preact
+npm install
 ```
-
-The app will be available at `http://localhost:3000`
 
 ### Building for Production
 
-Build the project for production:
 ```bash
 npx ownstak build
 ```
 
-The built files will be in the `dist` directory, ready for deployment.
+### Preview Production Build Locally
 
-### Preview Production Build
-
-Preview the production build locally:
 ```bash
 npx ownstak start
 ```
 
-## Deployment to OwnStak
+### Deploy to OwnStak
 
-This Preact SPA is configured for easy deployment to OwnStak:
 ```bash
 npx ownstak deploy
 ```

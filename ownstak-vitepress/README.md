@@ -4,20 +4,25 @@ This is an example VitePress documentation site designed to be deployed on OwnSt
 
 ## Quick Start
 
-### Setup and Install
+### Clone and Install
 
 ```bash
+npx gitpick https://github.com/OwnStak/ownstak-examples/tree/main/ownstak-vitepress
 cd ownstak-vitepress
 npm install
 ```
 
-### Development
+### Building for Production
 
 ```bash
-npx ownstak dev
+npx ownstak build
 ```
 
-Open your browser to `http://localhost:3000`
+### Preview Production Build Locally
+
+```bash
+npx ownstak start
+```
 
 ### Deploy to OwnStak
 

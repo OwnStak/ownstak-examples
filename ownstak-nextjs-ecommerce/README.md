@@ -1,47 +1,38 @@
-![Screenshot of the site](screenshot.png)
-
 # OwnStak Next.js Ecommerce Example
-This is an **ecommerce site example project** built with Next.js. It demonstrates an online store with category filtering, infinite scroll, and a clean UI. 
 
-## Requirements
-- Node.JS >= 18.x
-- NPM >= 8.x
+![OwnStak Next.js Ecommerce Example](screenshot.png)
 
-## Setup
-1. Clone this repository
-2. Run `npm install` or `yarn install`
-3. Start the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-4. Visit [http://localhost:3000/products](http://localhost:3000/products) to browse the demo store
+This is an example Next.js ecommerce application designed to be deployed on OwnStak.
 
-## Notes
-- All product data and images are for demonstration only and do not represent real products or inventory.
-- You can add your own images to the `public/images` folder for a more realistic look.
+## Quick Start
 
----
-
-
-**This project is for learning and demo purposes only.**
-
-## Getting Started
-
-First, run the development server:
+### Clone and Install
 
 ```bash
-npm run dev
+npx gitpick https://github.com/OwnStak/ownstak-examples/tree/main/ownstak-nextjs-ecommerce
+cd ownstak-nextjs-ecommerce
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Building for Production
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npx ownstak build
+```
+
+### Preview Production Build Locally
+
+```bash
+npx ownstak start
+```
+
+### Deploy to OwnStak
+
+```bash
+npx ownstak deploy
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [OwnStak Documentation](https://docs.ownstak.com/)

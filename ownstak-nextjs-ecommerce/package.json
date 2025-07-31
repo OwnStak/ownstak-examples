@@ -17,6 +17,6 @@
     "npm": ">=8.0.0"
   },
   "devDependencies": {
-    "ownstak": "latest"
+    "ownstak": "0.1.11"
   }
 }
