@@ -1,0 +1,15 @@
+{
+  "name": "ownstak-express",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx ownstak start",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy"
+  },
+  "dependencies": {
+    "ownstak": "0.1.11",
+    "express": "5.1.0"
+  }
+}
