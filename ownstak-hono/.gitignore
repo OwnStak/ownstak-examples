@@ -1,0 +1,9 @@
+# OwnStak build directory
+.ownstak
+
+# Node modules
+node_modules
+
+# IDEs
+.vscode
+.idea

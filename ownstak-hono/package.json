@@ -1,0 +1,16 @@
+{
+  "name": "ownstak-hono",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx ownstak start",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy"
+  },
+  "dependencies": {
+    "ownstak": "0.1.11",
+    "hono": "4.5.1",
+    "@hono/node-server": "1.18.0"
+  }
+}
