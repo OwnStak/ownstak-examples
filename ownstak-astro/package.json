@@ -1,0 +1,17 @@
+{
+  "name": "ownstak-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "npx ownstak dev",
+    "build": "npx ownstak build",
+    "start": "npx ownstak start",
+    "deploy": "npx ownstak deploy",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "ownstak": "0.1.11",
+    "astro": "5.12.6",
+    "@astrojs/node": "9.3.1"
+  }
+}
