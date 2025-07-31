@@ -1,0 +1,14 @@
+{
+  "name": "ownstak-vitepress",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "npx ownstak start",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy"
+  },
+  "devDependencies": {
+    "ownstak": "0.1.11",
+    "vitepress": "1.6.3"
+  }
+}
