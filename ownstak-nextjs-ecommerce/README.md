@@ -1,8 +1,8 @@
 # OwnStak Next.js Ecommerce Example
 
-![OwnStak Next.js Ecommerce Example](screenshot.png)
-
 This is an example Next.js ecommerce application designed to be deployed on OwnStak.
+
+![OwnStak Next.js Ecommerce Example](screenshot.png)
 
 ## Quick Start
 

@@ -7,17 +7,22 @@ This is an example Next.js application designed to be deployed on OwnStak.
 ### Clone and Install
 
 ```bash
+npx gitpick https://github.com/OwnStak/ownstak-examples/tree/main/ownstak-nextjs
 cd ownstak-nextjs
 npm install
 ```
 
-### Development
+### Building for Production
 
 ```bash
-npx ownstak dev
+npx ownstak build
 ```
 
-Open your browser to `http://localhost:3000`
+### Preview Production Build Locally
+
+```bash
+npx ownstak start
+```
 
 ### Deploy to OwnStak
 
