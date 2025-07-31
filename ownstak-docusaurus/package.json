@@ -1,0 +1,29 @@
+{
+  "name": "ownstak-docusaurus",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx ownstak dev",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.8.1",
+    "@docusaurus/preset-classic": "3.8.1",
+    "@mdx-js/react": "3.0.0",
+    "clsx": "2.0.0",
+    "prism-react-renderer": "2.3.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "ownstak": "0.1.11",
+    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/types": "3.8.1"
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
