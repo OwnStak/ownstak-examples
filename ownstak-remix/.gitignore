@@ -1,0 +1,12 @@
+node_modules
+
+/.cache
+/build
+.env
+
+# OwnStak build directory
+.ownstak
+
+# IDEs
+.vscode
+.idea

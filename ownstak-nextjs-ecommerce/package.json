@@ -1,0 +1,22 @@
+{
+  "name": "ownstak-nextjs-ecommerce",
+  "private": true,
+  "scripts": {
+    "dev": "ownstak dev",
+    "build": "ownstak build",
+    "start": "ownstak start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "ownstak": "0.1.11"
+  }
+}

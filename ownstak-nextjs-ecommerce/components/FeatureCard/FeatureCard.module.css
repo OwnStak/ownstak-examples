@@ -1,0 +1,44 @@
+/* Feature Card */
+.featureCard {
+  background: white;
+  border: 1px solid #e8e5e1;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+.featureCard:hover {
+  border-color: #d4c5b5;
+}
+
+.featureIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1rem;
+  background-color: #f5f3f0;
+  border-radius: 50%;
+}
+
+.featureIcon svg {
+  color: #a7897b;
+}
+
+.featureTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.featureDescription {
+  color: #6b5b47;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+} 

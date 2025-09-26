@@ -1,0 +1,16 @@
+
+# OwnStak build directory
+.ownstak
+
+# Build
+.vitepress
+docs/.vitepress
+
+# Node modules
+node_modules
+
+# IDEs
+.vscode
+.idea
+
+

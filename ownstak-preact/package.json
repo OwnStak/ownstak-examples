@@ -1,0 +1,20 @@
+{
+  "name": "ownstak-preact",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx ownstak dev",
+    "build": "npx ownstak build",
+    "deploy": "npx ownstak deploy",
+    "start": "npx ownstak start"
+  },
+  "dependencies": {
+    "ownstak": "0.1.11",
+    "preact": "10.26.9"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.10.2",
+    "vite": "7.0.4"
+  }
+}

@@ -1,0 +1,68 @@
+/* Base Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+  border: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Primary Button (CTA) */
+.primary {
+  background-color: #a7897b;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+}
+
+.primary:hover:not(:disabled) {
+  background-color: #926f5f;
+}
+
+/* Load More Button */
+.loadMore {
+  background-color: #f5f3f0;
+  color: #a7897b;
+  border: 1px solid #e8e5e1;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+}
+
+.loadMore:hover:not(:disabled) {
+  background-color: #a7897b;
+  color: #ffffff;
+  border-color: #a7897b;
+}
+
+/* Container for Load More Button */
+.loadMoreContainer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Size Variants */
+.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+.medium {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+}
+
+.large {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+} 

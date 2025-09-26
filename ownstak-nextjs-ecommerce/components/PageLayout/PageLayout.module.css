@@ -1,0 +1,12 @@
+/* Page Container - reusable container for pages */
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.pageContainerNarrow {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+} 
