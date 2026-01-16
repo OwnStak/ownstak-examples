@@ -9,7 +9,7 @@
     "deploy": "npx ownstak deploy"
   },
   "dependencies": {
-    "ownstak": "0.1.11",
+    "ownstak": "0.1.23",
     "hono": "4.5.1",
     "@hono/node-server": "1.18.0"
   }

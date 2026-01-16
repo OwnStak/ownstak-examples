@@ -9,7 +9,7 @@
     "deploy": "npx ownstak deploy"
   },
   "dependencies": {
-    "ownstak": "0.1.11",
+    "ownstak": "0.1.23",
     "express": "5.1.0"
   }
 }

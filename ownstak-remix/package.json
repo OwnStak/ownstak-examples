@@ -20,7 +20,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "ownstak": "0.1.11",
+    "ownstak": "0.1.23",
     "@remix-run/dev": "2.16.8",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",

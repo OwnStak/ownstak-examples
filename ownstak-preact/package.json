@@ -10,7 +10,7 @@
     "start": "npx ownstak start"
   },
   "dependencies": {
-    "ownstak": "0.1.11",
+    "ownstak": "0.1.23",
     "preact": "10.26.9"
   },
   "devDependencies": {
