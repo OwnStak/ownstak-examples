@@ -8,7 +8,7 @@
     "deploy": "npx ownstak deploy"
   },
   "devDependencies": {
-    "ownstak": "0.1.11",
+    "ownstak": "0.1.23",
     "vitepress": "1.6.3"
   }
 }
